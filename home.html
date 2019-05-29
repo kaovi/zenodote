@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Zenodote</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<h1>Take a picture of your game library!<h1>
+		<div id="buttons">
+			<input id="pic" type="file" accept="image/*";capture="camera" onchange="showPreview(this);">	<!--https://stackoverflow.com/questions/8581081/how-to-access-a-mobiles-camera-from-a-web-app-->
+			<button id="process">Process this picture</button>
+		</div>
+		<span><img id="preview" src=""></span>
+		<!--<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>-->
+    	<script src="script.js"></script>
+	</body>
+</html>
