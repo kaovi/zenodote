@@ -1,0 +1,23 @@
+body{
+	display: flex;
+	flex-direction: column;
+	line-height: 1;
+	background-color: #FEFEFE;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h{
+	font-style: bold;
+	font-size: 3em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#buttons{
+	flex-direction: column;
+}
+
+img{
+	size: 15%;
+}
