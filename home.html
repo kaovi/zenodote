@@ -10,16 +10,17 @@
 		<div id="head">
 				<img id="logo" class="who" src="logo_ph.png">
 				<h1 id="name">Zenodote</h1>
-				<img id="screenshot" class="who" src="library_ph.png">
+				<a id="link_home" href="logs.html">	<img id="screenshot" class="who" src="library_ph.png"> </a>
 		</div>
 		<div id="eye">	
 			<input id="pic" type="file" accept="image/*";capture="camera" onchange="showPreview(this);">
-			<button id="upload" onclick="send();"></button>
-			<label for="pic" id="pt_label">Take a picture!</label>
-			<span><img id="preview" src=""></span>
+			<button id="upload" onclick="sendLogs();"></button>
+			<button id="start" onclick="writeLogs();">
+			<label for="start" id="pt_label">Add logs to the library!</label>
+			<img id="preview" src="">
+			<div id="steam">
 		</div>
 		<!--<script src="https://unpkg.com/tesseract.js@v2.0.0-alpha.10/dist/tesseract.min.js" type="module"></script>-->
-		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
     	<script src="script.js"></script>
 	</body>
 </html>
