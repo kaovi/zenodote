@@ -1,0 +1,51 @@
+body{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	line-height: 1;
+	background-color: #FEFEFE;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#structure{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	line-height: 1;
+	border-color: #CAA472;
+	border-width: 0.5em; 
+	margin: auto;
+	height: 100%;
+}
+
+#bar{
+	margin: 1em;
+	padding: 1em 1em;
+	box-sizing: border-box;
+	box-shadow: 2px 0px 2px 0px #AAAAAA;
+}
+
+.rating{
+	font-size: 2em;
+}
+
+.green{
+	color: #8AEA92;
+}
+
+.red{
+	color: #C61D1D;
+}
+
+.yellow{
+	color: #FFFC31;
+}
+
+.blue{
+	color: #75DDDD;
+}
+
+td{
+	padding: 0 2em 0 2em;
+}
